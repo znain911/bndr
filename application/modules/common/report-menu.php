@@ -1,0 +1,1 @@
+<li><a href="<?php echo base_url('administrator/dashboard'); ?>"><i class="mdi mdi-bulletin-board fa-fw"></i><span class="hide-menu">Back to Applications</span></a></li>

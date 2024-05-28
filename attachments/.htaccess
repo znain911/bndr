@@ -1,0 +1,8 @@
+SetEnvIf Referer https://app.bndr-org.com.bd internal
+SetEnvIf Referer http://localhost/registry internal
+#
+<Files *>
+order Deny,Allow
+Deny from all
+Allow from env=internal
+</Files>
